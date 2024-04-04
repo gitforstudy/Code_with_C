@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdbool.h>
-
-// Function to check if a given number is a palindrome
-bool isPalindrome(int num) {
+bool isPalindrome(int num) 
+{
     int originalNum = num;
     int reversedNum = 0;
 
-    while (num > 0) {
+    while (num > 0) 
+    {
         int digit = num % 10;
         reversedNum = reversedNum * 10 + digit;
         num /= 10;
@@ -22,9 +22,11 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    if (isPalindrome(num)) {
+    if (isPalindrome(num)) 
+    {
         printf("%d is a palindrome.\n", num);
-    } else {
+    } else 
+    {
         printf("%d is not a palindrome.\n", num);
     }
 
