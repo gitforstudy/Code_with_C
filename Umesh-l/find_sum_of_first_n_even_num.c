@@ -4,7 +4,7 @@ int main(int argc,char **argv)
 {
 	if(argc!=2)
 	{
-		printf("Useg:./a.out num \n");
+		printf("Usage:./a.out number \n");
 		return 0;
 	}
 	int i,sum=0;
