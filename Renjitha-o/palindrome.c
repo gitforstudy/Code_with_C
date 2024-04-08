@@ -1,3 +1,5 @@
+//to check whether palindrome number or not
+
 #include<stdio.h>
 /*
 int count_digit(int n){
@@ -17,15 +19,19 @@ int main(void){
 	printf("enter the number:");
 	scanf("%d",&n);
 	int num = n;
-	while(n != 0){
-		rem = num % 10;
-		rev = rev * 10 + rem;
-		n = n / 10;
-	}
-	if(num == rev){
-		printf("Palindrome!!!");
-	} else {
-		printf("not Palindrome");
+	if (num < 0) {
+		printf("can't execute ,please enter +ve num");
+	}else {
+		while(n != 0){//continue till num is zero
+			rem = num % 10;//using modulus operator to get individual digits
+			rev = rev * 10 + rem;
+			n = n / 10;
+		}
+		if(num == rev){
+			printf("Palindrome!!!");
+		} else {
+			printf("not Palindrome");
+		}
 	}
 	
 	return 0;
