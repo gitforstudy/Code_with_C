@@ -14,7 +14,7 @@ int main(int argc,char **argv)
 		num1=num1+1;
 	}
 	
-	for(i=num1;i<=atoi(argv[2]);i++)
+	for(i=num1;i<=atoi(argv[2]);i=i+2)
 	{
 		if(i%2==0)
 		{
