@@ -1,9 +1,10 @@
+//C program to print power of a given number
 #include <stdio.h> 
 int main(void) 
 {
 	int rows;
-       	printf("Enter any positive integer: ");
-	scanf("%d", &rows);	
+       	printf("Enter any positive integer: ");//asking for input for number of rows
+	scanf("%d", &rows);//reading the number of rows from user	
 
 	// outer loop to iterator through each row 
 	for (int i = 0; i < rows; i++) { 

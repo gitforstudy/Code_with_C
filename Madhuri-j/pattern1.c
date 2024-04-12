@@ -1,9 +1,10 @@
+//C program to print pattern
 #include <stdio.h>
 int main(void)
 {
 	int rows;
-	printf("Enter positive integer for number of rows: ");
-	scanf("%d", &rows);
+	printf("Enter positive integer for number of rows: ");//asking for number of rows
+	scanf("%d", &rows);//reading input for number of rows
 	
 	// first loop to print all rows
     	for (int i = 0; i < rows; i++) {
