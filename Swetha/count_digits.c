@@ -1,14 +1,21 @@
-#include<stdio.h>
-int main()
-{
-	int num=987654,count=0;
-        int rem,result=0,temp;
-        temp=num;
-        while(num!=0) {
-              rem=num%10;
-              result=result*10+rem;
-              num=num/10;
-	      count++;
-         }
-	printf("the number od digits in the given number is %d",count);
+#include <stdio.h>
+
+int main() {
+    int num;
+    int count = 0;
+
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    // Iterate at least once, then continue until n becomes 0
+    // Remove the last digit from n in each iteration
+    // Increase the count by 1 in each iteration
+    do {
+        num /= 10;
+        ++count;
+    } while (num != 0);
+
+    printf("Number of digits: %d", count);
+    return 0;
 }
+
