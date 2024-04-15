@@ -1,0 +1,1 @@
+/*WAP to find the greatest common divisor of two numbers using loops. */
