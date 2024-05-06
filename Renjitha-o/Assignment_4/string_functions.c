@@ -43,19 +43,20 @@
 	return ptr;
 }*/
 
-char *str_rstr(char *str,char *str1) {
-        int i = strlen(str),j,count = 0,k = 0;
+/*char *str_rstr(char *str,char *str1) {
+        int i = 0,j,count = 0,k = 0;
         int len = strlen(str);
+	int len1 = strlen(str1);
         char src[len];
         char *ptr = src;
-        while(*(str +i) != '\0') {
-                for(j = 0; *(str1 + j) != '\0';j++) {
+        while(*(str + len) != '\0') {
+                for(j = (str1+len); *(str1 + i) != '\0';j--) {
                         if(*(str +i) == *(str1 +j)){
                                 src[k] = *(str +i);
                                 k++;
                         }
                 }
-                i--;
+                len--;
                 while(*(str + i) != '\0') {
                         src[k] = *(str +i);
                         k++;
@@ -65,9 +66,9 @@ char *str_rstr(char *str,char *str1) {
         //src[k] = '\0';
         printf("%s",src);
         return ptr;
-}
+}*/
 
-/*char *strlwr(char *s) {
+char *strlwr(char *s) {
 	char *ptr = s;
 	int i;
 	for(i = 0; *(s + i) != '\0';i++) {
@@ -100,25 +101,24 @@ int str_cmp(char *s,char *d) {
 	}else if (len1 < len2) {
 		return -1;
 	}
-}*/
+}
 int main(void)
 {
 	char str[15],str2[10],c;//*str1;
-	//int str1;
-	char *str1;
+	int str1;
 	printf("enter the string:\n");
 	scanf("%s",str);
-	printf("enter the string to search:\n");
+	printf("enter the character to search:\n");
 	scanf(" %s",str2);
-	str1 = str_rstr(str,str2);
-	/*if(str1 < 0) {
+	str1 = str_cmp(str,str2);
+	if(str1 < 0) {
 		printf("string comparison:%d -> strings are not equal",str1);
 	} else if(str1 == 0) {
 		printf("same string");
 	}else {
 		printf("strings are not equal");
-	}*/
-	printf("FIRST OCCURENCE OF THE CHARACTER:%s\n",str1);
+	}
+	//printf("FIRST OCCURENCE OF THE CHARACTER:%s\n",str1);
 	return 0;
 }
 
