@@ -1,0 +1,31 @@
+File is a collection of data that stored on secondary memory like haddisk of a computer.
+
+The following are the operations performed on files in c programming langauge.
+
+Creating (or) Opening a file
+Reading data from a file
+Writing data into a file
+Closing a file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dksajgkdsajgkajds
+
+
+
+
+
+
