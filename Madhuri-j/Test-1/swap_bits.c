@@ -2,6 +2,7 @@
 
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void to_bin(int num)
 {
@@ -12,28 +13,14 @@ void to_bin(int num)
 	printf("\n");
 }
 
-/*void swap_bits(int num, int n1, int n2)
-{
-	int i, x, y, temp;
-	for(i = 31; i >= n2; i--) {
-		x = num>>i&1;
-		for(int j = 0; j <= n1; j++) {
-			y = num>>j&1;
-			if(i == n1 || j == n2) {
-				if(x == 1 || y == 0) {
-					x = 0;
-					y = 1;
-					temp = x & y;				
-				}
-			}
-		}
-	}
-	to_bin(temp);
-	printf("\n");
-}*/
-
 void swap_bits(int n, int p1, int p2)
 {
+	int x = n>>p1&1;
+    	int y = n>>p2&1;
+	if(p1 == p2) {
+		printf("Same bits no swap\n");
+		exit(0);
+	}
 	n = n ^ (1 << p1);
 	n = n ^ (1 << p2);
 	to_bin(n);
