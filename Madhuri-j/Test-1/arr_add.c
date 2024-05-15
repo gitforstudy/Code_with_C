@@ -22,13 +22,10 @@ int main(void)
 	printf("%d\n",size);
 	int res[size];
 	j = 0;
-	//while(j < size) {
-		for(int i = 0; i < size; i++) {
-			res[j++] = a[i];
-			res[j++] = b[i];
-			//j+2;
-		}
-	//}
+	for(int i = 0; i < size; i++) {
+		res[j++] = a[i];
+		res[j++] = b[i];
+	}
 	for(j = 0; j < size; j++) {
 		printf("%d ", res[j]);
 	}
