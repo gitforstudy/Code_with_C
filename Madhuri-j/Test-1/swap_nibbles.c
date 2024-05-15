@@ -15,9 +15,9 @@ void to_bin(int num)
 void swap_nibble(int number)
 {
         int left, right;
-        left = number & 0x0f0f;
+        left = number & 0x0f0f0f0f;
         left = left << 4;
-        right = number & 0xf0f0;
+        right = number & 0xf0f0f0f0;
         right = right >> 4;
         number = left | right;
         to_bin(number);
