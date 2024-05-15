@@ -22,8 +22,6 @@ int main()
 	printf("Enter position 1 and position 2 of the bits to swap : \n");
 	scanf("%d %d",&pos1,&pos2);
 	
-	int res = swapBits(n,pos1,pos2);
-	
-	printf("The number after swapping bit positions = %d\n",res);
+	printf("The number after swapping bit positions = %d\n",swapBits(n,pos1,pos2));
 	return 0;	
 }

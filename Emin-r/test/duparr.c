@@ -7,7 +7,7 @@ int main()
 	int size=sizeof(a)/sizeof(a[0]);
 	
 	for(i=0;i<size;i++){
-		for(j=i+1;j<size;j++){
+		for(j=0;j<size;j++){
 			if(a[i]==a[j]){
 				for(int k=j;k<size;k++)
 					a[k]=a[k+1];
