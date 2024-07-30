@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+void showbits(unsigned int num) {
+    
+    int i;
+    for(i = 7; i >= 0; i--) {
+        
+        if( num & (1 << i)) {
+            printf("1");
+        }else {
+            printf("0");
+        }
+    }
+    printf("\n");
+}
+int main(void)
+{
+    unsigned int num = 0xAB;
+    int odd_set_bits = 0, even_set_bits = 0;
+    int d;
+    printf("enter the positions to rotate:\n");
+    scanf("%d",&d);
+    unsigned int num1 = (num << d) | (num >> (8 - d));
+    unsigned int num2 = (num >> d) | (num << (8 - d));
+    showbits(num);
+    showbits(num1);
+    showbits(num2);
+    for(int i = 0; i <= 7; i++) {
+        if(i % 2 == 0) {
+            if(num & (1 << i)) {
+                odd_set_bits++;
+            }
+        }else {
+            if(num &(1 << i)){
+                even_set_bits++;
+            }
+        }
+    }
+    printf("set bits in odd position:%d \t set bits in even position :%d",odd_set_bits,even_set_bits);
+    return 0;
+}
