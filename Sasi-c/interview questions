@@ -1,0 +1,26 @@
+Introduce yourself
+Explain your project
+What is uart,i2c
+What is the idle state of pins of i2c and uart
+How structure padding works
+Draw the memory layout of shared memory and how memory is accessed
+Draw the memory layout of structure padding by taking a example structure same as to the union
+How can I access a another variable from one variable in union with memory layout
+Memory layout of c program
+What is the function of linker and how it will generate binary
+How timer api is working inside and how it is generating delays
+What is PLL and clock in MCU
+What is prescaler and postscaler and what is the use of it?
+write a program to check whether the linked list is circular or not in a optimized way?
+write a macro to toggle a particular bit to work for a particular application code?
+how bit fields works
+what is the difference between volatile and constant 
+storage classes and scope of every storage class and example for every storage class
+what is binary semaphore
+Explain Mutex with example
+Difference between Constant pointer and pointer constant
+Memory layout of linked list and union and structure
+what is crystal oscillator?
+how the frequency of a microcontroller can be derived?
+Explain IPC mechanisms?
+How can you make GPIO as an interrupt and how that api works?
