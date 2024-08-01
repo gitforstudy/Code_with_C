@@ -1,0 +1,29 @@
+1)explain your project 
+2)what is malloc.
+3)what is memory leak?
+4)What is  difference between RTOS and GPOS.
+5)data structure linear and nonlinear.
+6)divisible using bitwise
+7)aptitude 5 question
+8)find unique number in array using bitwise
+9)what is runtime time error?
+10)What is compile time error?
+11)What is vim?
+12)swap the two numbers using bitwise
+13)what is a dangling pointer?
+14)what is static and where it is used.
+15)What extent? Where store?
+16)how to debug your code.
+17) which type of debugger was used.
+18)What is store class?
+19) what is multiple file completion
+20)find the same number in between two node using a single link list and optimize the way
+21)what is volatile and what is used?
+22)memory layout
+23)What is difference between macros and inline function?
+24) What is DME?
+25)what is UART ,I2C,SPI.
+26)what is difference between I2C and SPI, which one is good  and  what are the disadvantages?
+27) What is tree data structure?
+
+
