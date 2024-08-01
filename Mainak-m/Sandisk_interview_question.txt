@@ -1,0 +1,24 @@
+1)Tell me about yourself
+2)explain all project
+3)Binary search and time complexity->probability
+4)explain about uart,i2c,spi
+5)which one is most used between i2c and spi?
+6)swap the hexadecimal ->"ABCD"->output should come like this->CDAB and extract the DA using bitwise operator
+7)Queue reverse
+8)linked list
+9)what you know about memory and different types of memory
+10)what is the main difference between ram and rom?
+11)tell the command for searching string from the file
+12)write the command for show hidden files
+13)one program is written rom long back before  and  now multiple pepole using that code modification is there now if some conflicts if happened how you can solve what will be your approach
+14)hdd and sdd
+15)flash memory
+16)difference between sd card and micro sd card
+17)about mqtt
+18)write a one program in python how you will send one buffer file(read) to   bin folder?
+19)sorting in binary tree 
+20)iterator
+21)template
+22)memory architechure ->havard and von neuman architechure
+
+
