@@ -1,0 +1,33 @@
+Self Introduction
+1.Compilation stages
+2.Little Endianess and Big Endianess
+3.storage classes with example and the visibility of the storage classes
+4.exlain inline function with example
+6.In 1 sceneario , 1 function is calling 9 inline function and 2nd scenario only function calls are there, so which case will be fast in execution and  which will use more memory space
+7.what is dangling pointer,how you will overcome the problem of dangling pointer
+8.what is volatile,where we need to use that in the program in embedded programming
+9.what is static functions,difference between local static variable and global static variable
+10.if one variable is declared as static in 1 function and can we use that in another function
+11.In compilation stages ,what will be the extensions of the files in each stages
+12.what is the main difference between structure and union
+13.given 1 structure and union ,how much memory(size) it will take for the structure and union
+14.structure padding
+15.what is stack and heap memory
+16.what is stack overflow
+17.dynamic memory allocation,difference between calloc and malloc
+18.bitwise operators
+19.what will happen to the program, if it is executed in terms of hardware
+20.what is memory layout,(explain .bss segment,stack heap,text)
+21.what is linear and non-linear data structure
+22.differnece between Linkedlist array
+23.types of Linkedlist
+24.Linked list operations
+25.what is macros and examples
+26.ifdef,undef
+27.Array reversal
+28.set a particular bit in a number
+29.clear particular bits in the given range like from 1st position to 3rd position clear the bits
+30.swap nibbles of a bit
+31.count the frequency of each element in the array
+32.count number of set bits
+33.how you will update value in hardware
