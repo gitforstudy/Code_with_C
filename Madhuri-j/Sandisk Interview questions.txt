@@ -1,0 +1,23 @@
+Self introduction
+Memory Layout In C
+Application building stages
+Difference between stack and heap
+How do you write Macros as a function
+Explain Storage classes
+Difference between Macros and inline function explain them
+C program to count set bits
+C program to swap two numbers without using third variable and use bitwise operators
+Binary search explanation
+NULL pointers explanation
+What is data segment and what variables can be stored in this segment
+pass by value & pass by reference what is the difference between them
+difference between structures and unions
+C program, i have x = 45, y = 60 i have make x as 60 how many bits i have to flip such that to get the result
+Dynamic memory allocation explanation
+C program to find unique element in an array using bitwise
+RTOS, microcontroller and microprocessor definition and example
+Reverse Doubly Linked list
+Reverse Singly Linked list
+Explain TCP and UDP protocols and also when you use each protocol give example in real world scenario
+What are the types of error and also explain in which stage each error will occur
+what is volatile and why do we use them?
