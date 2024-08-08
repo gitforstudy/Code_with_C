@@ -21,3 +21,4 @@ Reverse Singly Linked list
 Explain TCP and UDP protocols and also when you use each protocol give example in real world scenario
 What are the types of error and also explain in which stage each error will occur
 what is volatile and why do we use them?
+What are compiler and interpreter?
