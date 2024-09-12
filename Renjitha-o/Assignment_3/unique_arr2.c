@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(void)
+{
+        int arr[] = {3,3,3,1,2,2,6,6,6,6};
+        int visit = 0;
+        int size = sizeof(arr)/sizeof(arr[0]);
+        int barr[size];
+        for(int i = 0; i < size; i++){
+                int count = 1;
+                for(int j = i+1; j < size; j++){
+                        if(arr[i] == arr[j]){
+                                count++;
+                                barr[j] = visit;
+                        }
+                }
+                if(barr[i] != visit) {
+                        barr[i] = count;
+                }
+        }
+        for(int i = 0; i < size;i++) {
+                        if(barr[i] == 1) {
+                                printf("%d",arr[i]);
+                        }
+        }
+	return 0;
+}
+
